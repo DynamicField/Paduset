@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+  "name": "paduset",
+  "version": "0.0.1",
+  "dependencies": [
+    {
+      "name": "llvm",
+      "default-features": false,
+      "features": [
+        "target-x86"
+      ],
+      "platform": "!linux"
+    },
+    "utfcpp"
+  ]
+}
